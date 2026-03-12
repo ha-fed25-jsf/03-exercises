@@ -30,3 +30,17 @@ main {
 	color: var(--header-fg);
 }
 
+.framed {
+	/* em och rem beror på font-size */
+	border: 2px solid var(--header-bg);
+	border-radius: 0.3em;
+	padding: 0.2em;
+	margin: 0.5em;
+	box-shadow: 0 0 0.4em var(--header-bg);
+}
+
+.row {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+}

@@ -1,5 +1,6 @@
 import './App.css'
 import Feeling from './components/Feeling.jsx'
+import Counter from './components/Counter.jsx'
 
 function App() {
 	return (
@@ -9,6 +10,8 @@ function App() {
 			</header>
 			<main>
 				<Feeling />
+				<Counter />
+				<Counter />
 			</main>
 		</div>
 	)
