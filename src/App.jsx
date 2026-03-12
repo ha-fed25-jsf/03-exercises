@@ -1,6 +1,7 @@
 import './App.css'
 import Feeling from './components/Feeling.jsx'
 import Counter from './components/Counter.jsx'
+import HideShow from './components/HideShow.jsx'
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<Feeling />
 				<Counter />
 				<Counter />
+				<HideShow />
 			</main>
 		</div>
 	)
