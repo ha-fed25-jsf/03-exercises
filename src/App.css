@@ -1,0 +1,32 @@
+:root {
+	--header-bg: #305CDE;
+	--header-fg: #e4e9f9;
+	--bg: #abbffa;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  /* background-color: var(); */
+}
+
+body { margin: 0; }
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: var(--header-bg);
+	color: var(--header-fg);
+}
+main {
+	background-color: #59B5F7;
+	flex-grow: 1;
+	color: var(--header-fg);
+}
+
