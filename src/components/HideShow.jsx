@@ -23,6 +23,20 @@ const HideShow = () => {
 export default HideShow
 
 /*
+Blandade JavaScript-hyss
+let x = 'hejsan'
+!x === false
+!!x === true
+Boolean(x) === true
+!!x === !(!x)
+
++5
++false === 0
++true === 1
+Number(false) === 0
+*/
+
+/*
 Conditional rendering:
 {condition ? <p> exempel </p> : null}
 
