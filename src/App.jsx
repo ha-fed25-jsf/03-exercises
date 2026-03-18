@@ -15,7 +15,6 @@ function App() {
 				<FruitList />
 				<Feeling> good feelings! </Feeling>
 				<Calculator />
-				<Feeling />
 				<Counter />
 				<Counter />
 				<HideShow />
