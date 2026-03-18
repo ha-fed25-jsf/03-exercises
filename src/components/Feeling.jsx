@@ -1,7 +1,7 @@
 import './Feeling.css'
 import { useState } from 'react'
 
-const Feeling = () => {
+const Feeling = ({ children }) => {
 	const [feeling, setFeeling] = useState('happy')
 
 	return (
@@ -15,6 +15,7 @@ const Feeling = () => {
 				> Excited </button>
 			</div>
 			<p> I am {feeling} </p>
+			<p> {children} </p>
 		</section>
 	)
 }
